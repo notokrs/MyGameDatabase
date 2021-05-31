@@ -34,5 +34,5 @@ jobs:
       - store_test_results:
           path: app/build/test-results
       - store_artifacts:
-            path: app/build/output/apk/debug
+            path: app/build/outputs/apk/debug
             destination: artifact-file
