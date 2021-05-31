@@ -18,8 +18,8 @@ android {
         consumerProguardFiles "consumer-rules.pro"
 
         buildTypes.each {
-            buildConfigField "String", "API_KEY", '"08d93b2a854c43018a6e17b00b2bc959"'
-            buildConfigField "String", "BASE_URL", '"https://api.rawg.io/api/"'
+            it.buildConfigField "String", "API_KEY", '"08d93b2a854c43018a6e17b00b2bc959"'
+            it.buildConfigField "String", "BASE_URL", '"https://api.rawg.io/api/"'
         }
 
     }
