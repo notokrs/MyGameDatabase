@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Game Database</string>
+    <string name="favorite_games">Favorite games</string>
+    <string name="new_release">New Release Games</string>
+    <string name="error_get_games">Error Getting Data</string>
+    <string name="error_get_games_sub">Try again later</string>
+    <string name="about_detail_title">About</string>
+    <string name="platform_detail_title">Platform</string>
+    <string name="metascore_detail_title">Metascore</string>
+    <string name="genre_detail_title">Genre</string>
+    <string name="release_date_detail_title">Release Date</string>
+    <string name="developer_detail_title">Developer</string>
+    <string name="add_to_fav">%s added to Favorite</string>
+    <string name="remove_from_fav">%s remove from Favorite</string>
+    <string name="favorite_games_title">Your Favorite Games</string>
+    <string name="fav_game_empy_header">Your Favorite Games Empty</string>
+    <string name="fav_games_empty_subheader">Try add some games</string>
+    <string name="title_favorite">Module Title</string>
+
+    <string name="fav_btn">Favorite Button</string>
+</resources>
