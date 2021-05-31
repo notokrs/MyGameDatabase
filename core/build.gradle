@@ -2,7 +2,6 @@ plugins {
     id 'com.android.library'
     id 'kotlin-android'
     id 'kotlin-kapt'
-    id 'com.google.secrets_gradle_plugin' version '0.6'
 }
 
 android {
@@ -18,7 +17,11 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
 
-        buildConfigField "String", "BASE_URL", '"https://api.rawg.io/api/"'
+        buildTypes.each {
+            buildConfigField "String", "API_KEY", '"08d93b2a854c43018a6e17b00b2bc959"'
+            buildConfigField "String", "BASE_URL", '"https://api.rawg.io/api/"'
+        }
+
     }
 
     buildTypes {
